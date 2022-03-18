@@ -1316,6 +1316,10 @@ declare namespace jest {
          * List of results of calls to the mock function.
          */
         results: Array<MockResult<T>>;
+        /**
+         * List of arguments of the last call to the mock function.
+         */
+        lastCall: Y
     }
 }
 
